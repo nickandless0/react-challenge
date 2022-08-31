@@ -1,0 +1,31 @@
+.list-item {
+    margin: 6px 12px;
+    min-height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    border: 1px solid #aaa;
+}
+.list-item .overlay {
+    margin: 6px 12px;
+    border-radius: 8px;
+    width: calc(100% - 24px);
+    height: calc(100% - 12px);
+    transition: 0.3s ease;
+    position: absolute;
+    cursor: pointer;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    top: 0;
+    left: 0;
+}
+
+.list-item .overlay:hover {
+    background-color: rgba(0,0,0,0.9);
+    opacity: 1;
+
+}

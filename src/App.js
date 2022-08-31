@@ -1,4 +1,5 @@
 import './App.css';
+import ListLogoes from './views/list_logoes';
 
 // Questions:
 // 1. Load data from local file (path: “https://ac.aws.citizennet.com/assets/qspreviews/qs_interview_data.json”)
@@ -8,12 +9,7 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <div>
-          Let's start here
-        </div>
-        
-      </header>
+      <ListLogoes />
     </div>
   );
 }
